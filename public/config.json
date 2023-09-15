@@ -17,7 +17,7 @@
         "execute": {
            "inArguments":[],
           "outArguments": [],
-          "url": "https://<your-domain-here>/journeybuilder/execute",
+          "url": "https://sfmc-jb-custom-activity-temp-b22be2462035.herokuapp.com/",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -28,22 +28,22 @@
     },
     "configurationArguments": {
       "save": {
-        "url": "https://<your-domain-here>/journeybuilder/save",
+        "url": "https://sfmc-jb-custom-activity-temp-b22be2462035.herokuapp.com/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://<your-domain-here>/journeybuilder/publish",
+        "url": "https://sfmc-jb-custom-activity-temp-b22be2462035.herokuapp.com/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://<your-domain-here>/journeybuilder/stop",
+        "url": "https://sfmc-jb-custom-activity-temp-b22be2462035.herokuapp.com//stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://<your-domain-here>/journeybuilder/validate",
+        "url": "https://sfmc-jb-custom-activity-temp-b22be2462035.herokuapp.com//validate",
         "verb": "POST",
         "useJwt": true
       }
