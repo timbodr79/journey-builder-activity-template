@@ -3,14 +3,13 @@
     "metaData": {
         "icon": "images/icon.png",
         "iconSmall": "images/iconSmall.png",
-        "category": "message"
+        "category": "customer"
     },
     "type": "REST",
     "lang": {
         "en-US": {
-            "name": "Template",
-          "description": "A Template for a custom Journey Builder activity",
-          "step1Label": "Configure Activity"
+            "name": "Bitly Template",
+          "description": "A Template for a custom Journey Builder activity that makes Bitly calls to return shortened URLs",
         }
     },
     "arguments": {
